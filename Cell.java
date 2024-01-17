@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Cell {
 	
-    // Content of this cell (empty, cross, nought)
+	// Content of this cell (empty, cross, nought)
 	Player content;
 	
 	// Row and column of this cell
@@ -14,7 +14,7 @@ public class Cell {
 	public Cell(int row, int col) {
 		
 		// Initialise the variables row, col 
-        this.row = row;
+		this.row = row;
         this.col = col;
 		
 		// Call the method that sets the cell content to EMPTY
